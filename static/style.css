@@ -1,0 +1,51 @@
+/* Basic styling for the entire body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styling for headers */
+h1 {
+    color: #444;
+    text-align: center;
+}
+
+/* Styling for the input and button section */
+input[type="number"] {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the element's width and height */
+}
+
+button {
+    background-color: #5cb85c; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c; /* Darker green when hovered */
+}
+
+/* Styling for the tree visualization area */
+#treeVisualization {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(​⬤

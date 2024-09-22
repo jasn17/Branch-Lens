@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Binary Tree Visualizer</title>
+    <!-- Add a link to your CSS for styling -->
+    <link rel="stylesheet" href="/../static/style.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <h1>Binary Tree Visualizer</h1>
+    <div>
+        <label for="keyInput">Enter Node Value:</label>
+        <input type="number" id="keyInput">
+        <button onclick="insertNode()">Insert</button>
+        <button onclick="deleteNode()">Delete</button>
+        <button onclick="searchNode()">Search</button>
+    </div>
+    <div id="treeVisualization" style="width: 100%; height: 500px;"></div>
+
+    <!-- Link to the TypeScript-compiled JavaScript file -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
